@@ -1,0 +1,54 @@
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot verifier_tb_behav xil_defaultlib.verifier_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 8 for port 'distance' [C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/hash_round.v:34]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Downloads/lab1_starter_files/lab1starterfiles/verifier_tb.v" Line 1. Module verifier_tb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/verifier.v" Line 1. Module verifier doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/length_finder.v" Line 1. Module length_finder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/arbiter.v" Line 1. Module arbiter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/encoder.v" Line 1. Module encoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/hasher.v" Line 1. Module hasher doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/hash_round.v" Line 1. Module hash_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/rotator.v" Line 1. Module rotator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/hash_round.v" Line 1. Module hash_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/rotator.v" Line 1. Module rotator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/hash_round.v" Line 1. Module hash_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/rotator.v" Line 1. Module rotator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/hash_round.v" Line 1. Module hash_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/rotator.v" Line 1. Module rotator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/hash_round.v" Line 1. Module hash_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/rotator.v" Line 1. Module rotator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/hash_round.v" Line 1. Module hash_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/rotator.v" Line 1. Module rotator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/hash_round.v" Line 1. Module hash_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/rotator.v" Line 1. Module rotator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/hash_round.v" Line 1. Module hash_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/rotator.v" Line 1. Module rotator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/rotator.v" Line 1. Module rotator(WIDTH=32,DISTANCE=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/length_finder.v" Line 1. Module length_finder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/arbiter.v" Line 1. Module arbiter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/encoder.v" Line 1. Module encoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/cam.v" Line 1. Module cam doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/encoder.v" Line 1. Module encoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hskas/Documents/EE108/Lab1/Lab1.srcs/sources_1/imports/lab1starterfiles/hash_rom.v" Line 1. Module hash_rom doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.arbiter
+Compiling module xil_defaultlib.encoder
+Compiling module xil_defaultlib.length_finder
+Compiling module xil_defaultlib.rotator
+Compiling module xil_defaultlib.hash_round
+Compiling module xil_defaultlib.rotator(WIDTH=32,DISTANCE=5)
+Compiling module xil_defaultlib.hasher
+Compiling module xil_defaultlib.cam
+Compiling module xil_defaultlib.hash_rom
+Compiling module xil_defaultlib.verifier
+Compiling module xil_defaultlib.verifier_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot verifier_tb_behav

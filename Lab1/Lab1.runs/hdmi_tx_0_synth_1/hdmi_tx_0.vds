@@ -1,0 +1,298 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Jan 13 23:09:55 2026
+# Process ID         : 47300
+# Current directory  : C:/Users/hskas/Documents/EE108/Lab1/Lab1.runs/hdmi_tx_0_synth_1
+# Command line       : vivado.exe -log hdmi_tx_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source hdmi_tx_0.tcl
+# Log file           : C:/Users/hskas/Documents/EE108/Lab1/Lab1.runs/hdmi_tx_0_synth_1/hdmi_tx_0.vds
+# Journal file       : C:/Users/hskas/Documents/EE108/Lab1/Lab1.runs/hdmi_tx_0_synth_1\vivado.jou
+# Running On         : Dell-14-Premium
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 255H
+# CPU Frequency      : 3686 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 16
+# Host memory        : 33777 MB
+# Swap memory        : 20401 MB
+# Total Virtual      : 54178 MB
+# Available Virtual  : 19527 MB
+#-----------------------------------------------------------
+source hdmi_tx_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 530.059 ; gain = 221.555
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/hskas/Downloads/lab1-main/lab1-main/hdmi_tx_ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2025.2/Vivado/data/ip'.
+Command: synth_design -top hdmi_tx_0 -part xc7z020clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 23272
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1084.047 ; gain = 534.449
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-11065] parameter 'CTRLTOKEN0' becomes localparam in 'encode' with formal parameter declaration list [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/encode.v:146]
+WARNING: [Synth 8-11065] parameter 'CTRLTOKEN1' becomes localparam in 'encode' with formal parameter declaration list [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/encode.v:147]
+WARNING: [Synth 8-11065] parameter 'CTRLTOKEN2' becomes localparam in 'encode' with formal parameter declaration list [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/encode.v:148]
+WARNING: [Synth 8-11065] parameter 'CTRLTOKEN3' becomes localparam in 'encode' with formal parameter declaration list [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/encode.v:149]
+INFO: [Synth 8-6157] synthesizing module 'hdmi_tx_0' [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/synth/hdmi_tx_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'hdmi_tx_v1_0' [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/hdmi_tx_v1_0.v:73]
+INFO: [Synth 8-6157] synthesizing module 'srldelay' [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/srldelay.v:70]
+INFO: [Synth 8-6157] synthesizing module 'SRL16E' [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:165334]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16E' (0#1) [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:165334]
+INFO: [Synth 8-6155] done synthesizing module 'srldelay' (0#1) [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/srldelay.v:70]
+INFO: [Synth 8-6157] synthesizing module 'encode' [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/encode.v:80]
+INFO: [Synth 8-6155] done synthesizing module 'encode' (0#1) [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/encode.v:80]
+INFO: [Synth 8-6157] synthesizing module 'encode__parameterized0' [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/encode.v:80]
+INFO: [Synth 8-6155] done synthesizing module 'encode__parameterized0' (0#1) [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/encode.v:80]
+INFO: [Synth 8-6157] synthesizing module 'encode__parameterized1' [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/encode.v:80]
+INFO: [Synth 8-6155] done synthesizing module 'encode__parameterized1' (0#1) [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/encode.v:80]
+INFO: [Synth 8-6157] synthesizing module 'serdes_10_to_1' [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/serdes_10_to_1.v:43]
+INFO: [Synth 8-6157] synthesizing module 'OSERDESE2' [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:117832]
+INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2' (0#1) [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:117832]
+INFO: [Synth 8-6157] synthesizing module 'OSERDESE2__parameterized0' [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:117832]
+INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2__parameterized0' (0#1) [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:117832]
+INFO: [Synth 8-6155] done synthesizing module 'serdes_10_to_1' (0#1) [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/serdes_10_to_1.v:43]
+INFO: [Synth 8-6157] synthesizing module 'OBUFDS' [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:113534]
+INFO: [Synth 8-6155] done synthesizing module 'OBUFDS' (0#1) [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:113534]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_tx_v1_0' (0#1) [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/hdmi_tx_v1_0.v:73]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_tx_0' (0#1) [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/synth/hdmi_tx_0.v:53]
+WARNING: [Synth 8-6014] Unused sequential element ade_q_reg was removed.  [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/encode.v:175]
+WARNING: [Synth 8-6014] Unused sequential element ade_reg_reg was removed.  [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/encode.v:176]
+WARNING: [Synth 8-6014] Unused sequential element ade_reg_q_reg was removed.  [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/encode.v:177]
+WARNING: [Synth 8-6014] Unused sequential element ade_reg_qq_reg was removed.  [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/encode.v:178]
+WARNING: [Synth 8-6014] Unused sequential element adin_q_reg was removed.  [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/encode.v:185]
+WARNING: [Synth 8-6014] Unused sequential element adin_reg_reg was removed.  [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/encode.v:186]
+WARNING: [Synth 8-6014] Unused sequential element ade_q_reg was removed.  [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/encode.v:175]
+WARNING: [Synth 8-6014] Unused sequential element ade_reg_reg was removed.  [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/encode.v:176]
+WARNING: [Synth 8-6014] Unused sequential element ade_reg_q_reg was removed.  [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/encode.v:177]
+WARNING: [Synth 8-6014] Unused sequential element ade_reg_qq_reg was removed.  [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/encode.v:178]
+WARNING: [Synth 8-6014] Unused sequential element adin_q_reg was removed.  [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/encode.v:185]
+WARNING: [Synth 8-6014] Unused sequential element adin_reg_reg was removed.  [c:/Users/hskas/Documents/EE108/Lab1/Lab1.gen/sources_1/ip/hdmi_tx_0/hdl/encode.v:186]
+INFO: [Synth 8-7129] Port adin[3] in module encode__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port adin[2] in module encode__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port adin[1] in module encode__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port adin[0] in module encode__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port ade in module encode__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port adin[3] in module encode is either unconnected or has no load
+INFO: [Synth 8-7129] Port adin[2] in module encode is either unconnected or has no load
+INFO: [Synth 8-7129] Port adin[1] in module encode is either unconnected or has no load
+INFO: [Synth 8-7129] Port adin[0] in module encode is either unconnected or has no load
+INFO: [Synth 8-7129] Port ade in module encode is either unconnected or has no load
+INFO: [Synth 8-7129] Port pix_data[31] in module hdmi_tx_v1_0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port pix_data[30] in module hdmi_tx_v1_0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port pix_data[29] in module hdmi_tx_v1_0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port pix_data[28] in module hdmi_tx_v1_0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port pix_data[27] in module hdmi_tx_v1_0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port pix_data[26] in module hdmi_tx_v1_0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port pix_data[25] in module hdmi_tx_v1_0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port pix_data[24] in module hdmi_tx_v1_0 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1206.336 ; gain = 656.738
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1206.336 ; gain = 656.738
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1206.336 ; gain = 656.738
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1206.336 ; gain = 656.738
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   5 Input    5 Bit       Adders := 6     
+	   4 Input    5 Bit       Adders := 3     
+	   8 Input    4 Bit       Adders := 6     
+	   2 Input    4 Bit       Adders := 3     
++---XORs : 
+	   2 Input      1 Bit         XORs := 42    
++---Registers : 
+	               10 Bit    Registers := 3     
+	                9 Bit    Registers := 3     
+	                8 Bit    Registers := 3     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 9     
+	                1 Bit    Registers := 20    
++---Muxes : 
+	   5 Input   10 Bit        Muxes := 3     
+	   2 Input   10 Bit        Muxes := 6     
+	   2 Input    8 Bit        Muxes := 3     
+	   2 Input    5 Bit        Muxes := 15    
+	   2 Input    1 Bit        Muxes := 21    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7129] Port pix_data[31] in module hdmi_tx_0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port pix_data[30] in module hdmi_tx_0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port pix_data[29] in module hdmi_tx_0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port pix_data[28] in module hdmi_tx_0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port pix_data[27] in module hdmi_tx_0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port pix_data[26] in module hdmi_tx_0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port pix_data[25] in module hdmi_tx_0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port pix_data[24] in module hdmi_tx_0 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:31 . Memory (MB): peak = 1456.332 ; gain = 906.734
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:31 . Memory (MB): peak = 1456.332 ; gain = 906.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:32 . Memory (MB): peak = 1456.332 ; gain = 906.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:38 . Memory (MB): peak = 1672.086 ; gain = 1122.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:38 . Memory (MB): peak = 1672.086 ; gain = 1122.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:38 . Memory (MB): peak = 1672.086 ; gain = 1122.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:38 . Memory (MB): peak = 1672.086 ; gain = 1122.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:38 . Memory (MB): peak = 1672.086 ; gain = 1122.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:38 . Memory (MB): peak = 1672.086 ; gain = 1122.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |LUT2      |     9|
+|2     |LUT3      |    33|
+|3     |LUT4      |    23|
+|4     |LUT5      |    78|
+|5     |LUT6      |    97|
+|6     |OSERDESE2 |     8|
+|7     |SRL16E    |    27|
+|8     |FDCE      |    42|
+|9     |FDPE      |     2|
+|10    |FDRE      |    87|
+|11    |OBUFDS    |     4|
++------+----------+------+
+
+Report Instance Areas: 
++------+---------------+-----------------+------+
+|      |Instance       |Module           |Cells |
++------+---------------+-----------------+------+
+|1     |top            |                 |   410|
+|2     |  inst         |hdmi_tx_v1_0     |   410|
+|3     |    encb       |encode           |   128|
+|4     |    encg       |encode_0         |   120|
+|5     |    encr       |encode_1         |   120|
+|6     |    serial_b   |serdes_10_to_1   |     2|
+|7     |    serial_clk |serdes_10_to_1_2 |     2|
+|8     |    serial_g   |serdes_10_to_1_3 |     2|
+|9     |    serial_r   |serdes_10_to_1_4 |     2|
+|10    |    srldly_0   |srldelay         |    27|
++------+---------------+-----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:38 . Memory (MB): peak = 1672.086 ; gain = 1122.488
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 16 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:38 . Memory (MB): peak = 1672.086 ; gain = 1122.488
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:38 . Memory (MB): peak = 1672.086 ; gain = 1122.488
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1687.176 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1803.449 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 92460e07
+INFO: [Common 17-83] Releasing license: Synthesis
+64 Infos, 16 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:42 . Memory (MB): peak = 1803.449 ; gain = 1259.465
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1803.449 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/hskas/Documents/EE108/Lab1/Lab1.runs/hdmi_tx_0_synth_1/hdmi_tx_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1803.449 ; gain = 0.000
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP hdmi_tx_0, cache-ID = 49e6da593dbc04fd
+INFO: [Coretcl 2-1174] Renamed 9 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1803.449 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/hskas/Documents/EE108/Lab1/Lab1.runs/hdmi_tx_0_synth_1/hdmi_tx_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file hdmi_tx_0_utilization_synth.rpt -pb hdmi_tx_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 13 23:11:03 2026...

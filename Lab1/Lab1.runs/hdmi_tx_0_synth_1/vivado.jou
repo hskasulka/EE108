@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Jan 13 23:09:55 2026
+# Process ID         : 47300
+# Current directory  : C:/Users/hskas/Documents/EE108/Lab1/Lab1.runs/hdmi_tx_0_synth_1
+# Command line       : vivado.exe -log hdmi_tx_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source hdmi_tx_0.tcl
+# Log file           : C:/Users/hskas/Documents/EE108/Lab1/Lab1.runs/hdmi_tx_0_synth_1/hdmi_tx_0.vds
+# Journal file       : C:/Users/hskas/Documents/EE108/Lab1/Lab1.runs/hdmi_tx_0_synth_1\vivado.jou
+# Running On         : Dell-14-Premium
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 255H
+# CPU Frequency      : 3686 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 16
+# Host memory        : 33777 MB
+# Swap memory        : 20401 MB
+# Total Virtual      : 54178 MB
+# Available Virtual  : 19527 MB
+#-----------------------------------------------------------
+source hdmi_tx_0.tcl -notrace
